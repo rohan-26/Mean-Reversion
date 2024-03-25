@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Read data
-    file_path = 'Downloads/GOOGL.csv'
+    file_path = 'GOOGL.csv'
     data = pd.read_csv(file_path)
 
     # Calculate moving average
